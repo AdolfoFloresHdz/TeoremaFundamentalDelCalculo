@@ -7,7 +7,7 @@ clear
 clc
 syms x;
 syms t;
-f=(2*(t)/(1+(t^2)))
+f=(2*(t)/(1+(t^2)))*t
 F=inline (char(f));
 a=2
 b=3
